@@ -55,8 +55,8 @@ Ritmos nordestinos com influência chiptune, adaptados ao clima de cada fase:
 
 ## ⌨️ Controles
 
-| ------ | ------------ |
 | Botão  | Ação         |
+| ------ | ------------ |
 | W      | Acelerar     |  
 | A      | Esquerda     |
 | S      | Frear        |
