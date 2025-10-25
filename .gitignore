@@ -1,0 +1,55 @@
+# =============== GERAIS ===============
+# Diretórios e arquivos temporários do Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/Assets/AssetStoreTools/
+
+# Logs e arquivos de cache
+/[Ll]ogs/
+/[Cc]ache/
+
+# Diretórios de compilação (por exemplo, após fazer um build)
+/ExportedObj/
+.consulo/
+
+# Arquivos de configurações locais
+*.pidb
+*.unityproj
+*.userprefs
+*.unity
+
+# Arquivos de serialização de cenas (se Force Text não estiver ativo)
+*.unity.meta
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# =============== VS/RIDER (IDE) ===============
+# Arquivos gerados pelo Visual Studio ou Rider
+.vs/
+*.csproj
+*.sln
+*.suo
+
+# Arquivos da Pasta UserSettings
+/UserSettings/
+
+# Arquivos gerados no seu sistema operacional (pode variar)
+[Aa]uto[Ss]ave/
+
+# Arquivos de debug
+/debug/
+/Debug/
+
+# Arquivos de pacotes Unity
+*.unitypackage
+
+# Arquivos do WebGL
+/WebGLTemplates/
+
+# Excluir a pasta ProjectSettings/ProjectVersion.txt (se estiver no seu projeto)
+# ProjectSettings/ProjectVersion.txt
