@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: e64c438f6869a1348b33fb7ed2926c1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1810642506182433865
+    second: spr_roads_1_strip15_0
+  - first:
+      213: 7059711597088819080
+    second: spr_roads_1_strip15_1
+  - first:
+      213: 4953307649229330808
+    second: spr_roads_1_strip15_2
+  - first:
+      213: 843669612521722001
+    second: spr_roads_1_strip15_3
+  - first:
+      213: 2703705816813356656
+    second: spr_roads_1_strip15_4
+  - first:
+      213: -7681855176406349207
+    second: spr_roads_1_strip15_5
+  - first:
+      213: 778125616995087764
+    second: spr_roads_1_strip15_6
+  - first:
+      213: -6843381378752255546
+    second: spr_roads_1_strip15_7
+  - first:
+      213: 6571451205287792715
+    second: spr_roads_1_strip15_8
+  - first:
+      213: -3336184821237174932
+    second: spr_roads_1_strip15_9
+  - first:
+      213: 4358689674265501838
+    second: spr_roads_1_strip15_10
+  - first:
+      213: 8061037093133419275
+    second: spr_roads_1_strip15_11
+  - first:
+      213: 822486603348726325
+    second: spr_roads_1_strip15_12
+  - first:
+      213: 5928697956731749852
+    second: spr_roads_1_strip15_13
+  - first:
+      213: -7005132886216627510
+    second: spr_roads_1_strip15_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 131
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3e5cbdb3e4fd6e0800000000000000
+      internalID: -1810642506182433865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 131
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8874f292b4229f160800000000000000
+      internalID: 7059711597088819080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 131
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8791a8f201fadb440800000000000000
+      internalID: 4953307649229330808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 99
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190162aea0155bb00800000000000000
+      internalID: 843669612521722001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 103
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07641549d1e758520800000000000000
+      internalID: 2703705816813356656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 99
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96acd42da61946590800000000000000
+      internalID: -7681855176406349207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 67
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495bf9f30257cca00800000000000000
+      internalID: 778125616995087764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 67
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9e2f0d4ec6701a0800000000000000
+      internalID: -6843381378752255546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 67
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40ddfddd0c723b50800000000000000
+      internalID: 6571451205287792715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 35
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6dab19b49d73b1d0800000000000000
+      internalID: -3336184821237174932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 35
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8022c85a2d2d7c30800000000000000
+      internalID: 4358689674265501838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 35
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b030779e68e8edf60800000000000000
+      internalID: 8061037093133419275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5325e11453f0a6b00800000000000000
+      internalID: 822486603348726325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 7
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5849b4167f64250800000000000000
+      internalID: 5928697956731749852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_roads_1_strip15_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaa6a831c4c8ce90800000000000000
+      internalID: -7005132886216627510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_roads_1_strip15_0: -1810642506182433865
+      spr_roads_1_strip15_1: 7059711597088819080
+      spr_roads_1_strip15_10: 4358689674265501838
+      spr_roads_1_strip15_11: 8061037093133419275
+      spr_roads_1_strip15_12: 822486603348726325
+      spr_roads_1_strip15_13: 5928697956731749852
+      spr_roads_1_strip15_14: -7005132886216627510
+      spr_roads_1_strip15_2: 4953307649229330808
+      spr_roads_1_strip15_3: 843669612521722001
+      spr_roads_1_strip15_4: 2703705816813356656
+      spr_roads_1_strip15_5: -7681855176406349207
+      spr_roads_1_strip15_6: 778125616995087764
+      spr_roads_1_strip15_7: -6843381378752255546
+      spr_roads_1_strip15_8: 6571451205287792715
+      spr_roads_1_strip15_9: -3336184821237174932
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
