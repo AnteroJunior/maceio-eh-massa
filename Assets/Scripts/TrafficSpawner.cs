@@ -2,39 +2,73 @@ using UnityEngine;
 
 public class TrafficSpawner : MonoBehaviour
 {
-    // O prefab (modelo) do carro inimigo
-    public GameObject enemyPrefab; 
-    
-    // Intervalo de tempo entre cada carro gerado
-    public float spawnRate = 2f; 
-    
-    // O tempo do próximo spawn (será atualizado no código)
-    private float nextSpawn = 0f; 
-    
-    // Limites de X onde os carros podem aparecer
-    public float minX = -0.5f; 
-    public float maxX = 0.5f; 
-    
-    // Altura onde os carros devem aparecer (acima da tela)
-    public float spawnY = 6f; 
+    private UIManager uiManager;
+    public GameObject enemyPrefab;
+    public GameObject fuelPrefab;
+    public float fuelSpawnChance = 0.2f;
+    public float spawnRate = 2f;
+    private float nextSpawn = 0f;
+    public float minX = -0.5f;
+    public float maxX = 0.5f;
+    public float spawnY = 6f;
+    public static bool isGameOver = false;
+    public float score = 0f;
+    public float scorePerSecond = 10f;
+
+    void Start()
+    {
+        uiManager = FindObjectOfType<UIManager>();
+        isGameOver = false;
+        Time.timeScale = 1f;
+    }
 
     void Update()
     {
-        // Verifica se é hora de gerar um novo carro
+        if (isGameOver)
+        {
+            return;
+        }
+
+        score += scorePerSecond * Time.deltaTime;
+
         if (Time.time > nextSpawn)
         {
-            // 1. Atualiza o tempo do próximo spawn
             nextSpawn = Time.time + spawnRate;
-
-            // 2. Calcula a posição X aleatória
-            // Random.Range inclui o minX, mas exclui o maxX (por padrão em floats)
-            float randomX = Random.Range(minX, maxX); 
-            
-            // 3. Define a posição completa (X aleatório, Y fixo, Z fixo)
+            float randomX = Random.Range(minX, maxX);
             Vector3 spawnPosition = new Vector3(randomX, spawnY, transform.position.z);
-            
-            // 4. Cria uma instância do prefab na posição e rotação (Quaternion.identity = sem rotação)
-            Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+
+            // Lógica para decidir se é carro inimigo ou combustível
+            GameObject prefabToSpawn;
+
+            // Random.value retorna um float entre 0.0 e 1.0
+            if (Random.value < fuelSpawnChance)
+            {
+                // Spawnar Combustível (20% das vezes)
+                prefabToSpawn = fuelPrefab;
+            }
+            else
+            {
+                // Spawnar Inimigo (80% das vezes)
+                prefabToSpawn = enemyPrefab;
+            }
+
+            Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+        }
+    }
+
+    public void EndGame()
+    {
+        if (isGameOver == false)
+        {
+            isGameOver = true;
+            Debug.Log("Fim de Jogo! Você bateu.");
+
+            if (uiManager != null)
+            {
+                uiManager.ShowGameOver();
+            }
+
+            Time.timeScale = 0f;
         }
     }
 }
